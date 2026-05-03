@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 4 VillageElderDragon
+  m_Name: 4.2 VillageElderScolding
   m_EditorClassIdentifier: 
-  NodeID: VillageElderDragon
-  SpeakerName: Village Elder
-  DialogueText: '"Ah, thank you to both you and Mist Da Wizard. If I recall correctly,
-    the dragon seems to be a bit lonely as she is without a mate. I think that is
-    the primary reason she is attacking the town, since she doesn''t get any attention
-    from anyone otherwise."'
+  NodeID: VillageElderScolding
+  SpeakerName: VillageElderScolding
+  DialogueText: '"You fool! One should be kind to their mother! Your cat may have
+    wandered to the dragon''s lair, if it isn''t in town. I would tell you to be
+    careful of the dragon snatching you, but you are a fool, so it seems that warning
+    you might be a waste of my breath and wisdom."'
   Choices:
-  - ChoiceText: '[Thank you for the information, sir.]'
+  - ChoiceText: '[Thank you, Elder, for the information. My mother has effectively
+      told me the same.]'
     NextNodeID: DaTownSquare
     ReloadScene: 0
     RequiredFlags: []

@@ -10,36 +10,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 4 VillageElder
+  m_Name: 4.1 Weaponsmith
   m_EditorClassIdentifier: 
-  NodeID: VillageElder
-  SpeakerName: Village Elder
-  DialogueText: '"Hello, young apprentice of Mist Da Wizard. How may I guide you
-    on this beautiful and warm day?"'
+  NodeID: Weaponsmith
+  SpeakerName: Weaponsmith
+  DialogueText: '"Hello there, ma boy. What brings you, a wizard''s apprentice, into
+    ma place?"'
   Choices:
-  - ChoiceText: '[I''ve been sent by Mist Da Wizard to deal with the Dragon.]'
-    NextNodeID: VillageElderDragon
+  - ChoiceText: '[Mist Da Wizard asked me to deal with the dragon. I figured you
+      might have something that would help.]'
+    NextNodeID: WeaponsmithDragon
     ReloadScene: 0
     RequiredFlags:
     - accepted_questofdawizard
     ForbiddenFlags: []
-    GrantFlags:
-    - wizarddragonlonely
-  - ChoiceText: '[My mother needs me to find the family cat.]'
-    NextNodeID: VillageElderCat
+    GrantFlags: []
+  - ChoiceText: '[My mother asked me to look for the cat.]'
+    NextNodeID: WeaponsmithCat
     ReloadScene: 0
     RequiredFlags:
     - helpfinddacat
     ForbiddenFlags:
     - dumbass
-    GrantFlags:
-    - catdragonlonely
-  - ChoiceText: '[My mom will kick me out if I don''t find the cat.]'
-    NextNodeID: VillageElderScolding
+    GrantFlags: []
+  - ChoiceText: '[My mother is forcing me to find the stupid cat.]'
+    NextNodeID: WeaponsmithScolding
     ReloadScene: 0
     RequiredFlags:
     - helpfinddacat
     - dumbass
     ForbiddenFlags: []
-    GrantFlags:
-    - catdragonlonely
+    GrantFlags: []

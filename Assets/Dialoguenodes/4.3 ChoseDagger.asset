@@ -10,15 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 4 MothersHome
+  m_Name: 4.3 ChoseDagger
   m_EditorClassIdentifier: 
-  NodeID: MothersHome
-  SpeakerName: Mother
-  DialogueText: '"Welcome home, my son! You''re back early."'
+  NodeID: ChoseDagger
+  SpeakerName: Narrator
+  DialogueText: '"Tucking the dagger into your belt, you thank the weaponsmith for
+    his advice and generosity. He simply smiles and ask you to deal with the dragon."'
   Choices:
-  - ChoiceText: '[Yeah, Mist Da Wizard gave me the rest of the day off.]'
-    NextNodeID: MissingCat
+  - ChoiceText: '[Head into town.]'
+    NextNodeID: DaTownSquare
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - visitedWeaponsmith

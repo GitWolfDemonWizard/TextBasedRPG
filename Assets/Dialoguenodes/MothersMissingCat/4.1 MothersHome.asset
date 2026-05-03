@@ -10,24 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 4 MissingCat
+  m_Name: 4.1 MothersHome
   m_EditorClassIdentifier: 
-  NodeID: MissingCat
+  NodeID: MothersHome
   SpeakerName: Mother
-  DialogueText: '"Well, in that case, would you be able to help me find the cat.
-    He went missing early last night, and I can''t seem to find him."'
+  DialogueText: '"Welcome home, my son! You''re back early."'
   Choices:
-  - ChoiceText: '[Of course!]'
-    NextNodeID: MothersHappy
+  - ChoiceText: '[Yeah, Mist Da Wizard gave me the rest of the day off.]'
+    NextNodeID: MissingCat
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags:
-    - helpfinddacat
-  - ChoiceText: '[No, I want to take a break]'
-    NextNodeID: MothersWrath
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags:
-    - dumbass
+    GrantFlags: []

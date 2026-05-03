@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 4 VillageElderCat
+  m_Name: 4.2 VillageElderDragon
   m_EditorClassIdentifier: 
-  NodeID: VillageElderCat
+  NodeID: VillageElderDragon
   SpeakerName: Village Elder
-  DialogueText: '"Ah, I see. Your cat seems to wander about town, but there is the
-    possibility that it may have wandered to the dragon''s lair, so if you don''t
-    find it in town, check there. Though it appears that the dragon may be attacking
-    the town out of loneliness, so be careful, the dragon may snatch you up as a
-    companion."'
+  DialogueText: '"Ah, thank you to both you and Mist Da Wizard. If I recall correctly,
+    the dragon seems to be a bit lonely as she is without a mate. I think that is
+    the primary reason she is attacking the town, since she doesn''t get any attention
+    from anyone otherwise."'
   Choices:
-  - ChoiceText: '[I''ll be careful, thank you, Elder.]'
+  - ChoiceText: '[Thank you for the information, sir.]'
     NextNodeID: DaTownSquare
     ReloadScene: 0
     RequiredFlags: []

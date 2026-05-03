@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 4 WeaponsmithDragon
+  m_Name: 4.2 WeaponsmithDragon
   m_EditorClassIdentifier: 
   NodeID: WeaponsmithDragon
   SpeakerName: Weaponsmith
@@ -19,7 +19,7 @@ MonoBehaviour:
     correctly, dragon''s are weak on their undersides. Good luck, laddy."'
   Choices:
   - ChoiceText: '[Grab the dagger.]'
-    NextNodeID: 
+    NextNodeID: ChoseDagger
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
