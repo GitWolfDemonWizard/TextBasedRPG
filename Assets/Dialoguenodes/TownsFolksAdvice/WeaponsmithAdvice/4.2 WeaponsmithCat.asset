@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 4.2 WeaponsmithDragon
+  m_Name: 4.2 WeaponsmithCat
   m_EditorClassIdentifier: 
-  NodeID: WeaponsmithDragon
+  NodeID: WeaponsmithCat
   SpeakerName: Weaponsmith
-  DialogueText: '"Ah, I see, me lad. Take yer pick o'' a weapon from the shop, on
-    me. Think o'' it as a thank ye for takin'' care o'' that dragon. If I recall
-    correctly, dragon''s are weak on their undersides. Good luck, laddy."'
+  DialogueText: '"I ''aven''t seen yer cat anywhere in town. It''s likely gone where''er
+    it''s warm. If it''s in the dragon''s lair, you should grab yerself a weapon
+    from me shop to fight it with. I remember hearin'' them dragons are weak in the
+    underside, so try to hit it there. Be careful, laddy."'
   Choices:
   - ChoiceText: '[Grab the dagger.]'
     NextNodeID: ChoseDagger
@@ -26,21 +27,21 @@ MonoBehaviour:
     GrantFlags:
     - hasrightweapon
   - ChoiceText: '[Grab the sword.]'
-    NextNodeID: 
+    NextNodeID: ChoseSword
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags:
     - haswrongweapon
   - ChoiceText: '[Grab the spear.]'
-    NextNodeID: 
+    NextNodeID: ChoseSpear
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags:
     - haswrongweapon
   - ChoiceText: '[Grab the archery equipment.]'
-    NextNodeID: 
+    NextNodeID: ChoseArchery
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

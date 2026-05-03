@@ -20,7 +20,7 @@ MonoBehaviour:
     one o'' the best fer killin'' dragon''s. Good luck, lad, yer gonna need it."'
   Choices:
   - ChoiceText: '[Take the sword.]'
-    NextNodeID: 
+    NextNodeID: GivenSword
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
