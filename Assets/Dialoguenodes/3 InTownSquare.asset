@@ -40,11 +40,21 @@ MonoBehaviour:
     - helpfinddacat
     GrantFlags: []
   - ChoiceText: '[Head to Dragon''s Lair]'
-    NextNodeID: 
+    NextNodeID: DragonsLairEntrance
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags:
     - rejected_questofdawizard
+    GrantFlags:
+    - wenttodragonslair
+  - ChoiceText: '[Return home to share what you learned.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - helpfinddacat
+    - visitedVillageElder
+    - visitedWeaponsmith
+    ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Return home to share what you learned.]'
     NextNodeID: 
@@ -53,6 +63,15 @@ MonoBehaviour:
     - helpfinddacat
     - visitedVillageElder
     - visitedWeaponsmith
+    - dumbass
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Return home to share what you learned.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - wenttodragonslair
+    - dragondefeated
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Return home to share what you learned.]'
