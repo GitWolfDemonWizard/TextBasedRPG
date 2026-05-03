@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 1 IntroGetQuest
+  m_EditorClassIdentifier: 
+  NodeID: Mist Da Wizard
+  SpeakerName: Da Wizard
+  DialogueText: '"Hello, my apprentice. I have been kindly asked by the folks of
+    the town to deal with the dragon that has been plaguing them. I think you are
+    the best candidate for the job. Will you take on this job for me?"'
+  Choices:
+  - ChoiceText: '[Yes, I can try.]'
+    NextNodeID: accepted_questofdawizard
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - accepted_questofdawizard
+  - ChoiceText: '[No, I''m too busy as it is.]'
+    NextNodeID: rejected_questofdawizard
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - rejected_questofdawizard
