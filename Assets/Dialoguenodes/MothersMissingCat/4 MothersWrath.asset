@@ -10,9 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 3 MothersHome
+  m_Name: 4 MothersWrath
   m_EditorClassIdentifier: 
-  NodeID: 
-  SpeakerName: 
-  DialogueText: 
-  Choices: []
+  NodeID: MothersWrath
+  SpeakerName: Mother
+  DialogueText: '"Get your ass out there and go find the cat, now! Or you can no
+    longer consider this your home!"'
+  Choices:
+  - ChoiceText: '[Yes, Ma''am!]'
+    NextNodeID: DaTownSquare
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - helpfinddacat

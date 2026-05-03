@@ -18,7 +18,7 @@ MonoBehaviour:
     next."'
   Choices:
   - ChoiceText: '[Visit the Village Elder]'
-    NextNodeID: 
+    NextNodeID: VillageElder
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
@@ -30,14 +30,16 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Visit Mom''s Home]'
-    NextNodeID: 
+    NextNodeID: MothersHome
     ReloadScene: 0
-    RequiredFlags: []
+    RequiredFlags:
+    - rejected_questofdawizard
     ForbiddenFlags: []
     GrantFlags: []
-  - ChoiceText: '[Visit Mom''s Home]'
+  - ChoiceText: '[Head to Dragon''s Lair]'
     NextNodeID: 
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags: []
+    ForbiddenFlags:
+    - rejected_questofdawizard
     GrantFlags: []

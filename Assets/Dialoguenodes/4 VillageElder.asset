@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 4 VillageElder
+  m_EditorClassIdentifier: 
+  NodeID: VillageElder
+  SpeakerName: Village Elder
+  DialogueText: '"Hello, young apprentice of Mist Da Wizard. How may I guide you
+    on this beautiful and warm day?"'
+  Choices:
+  - ChoiceText: '[I''ve been sent by Mist Da Wizard to deal with the Dragon.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - accepted_questofdawizard
+    ForbiddenFlags: []
+    GrantFlags:
+    - wizarddragonlonely
+  - ChoiceText: '[My mother needs me to find the family cat.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - helpfinddacat
+    ForbiddenFlags:
+    - dumbass
+    GrantFlags:
+    - wizarddragonlonely
+  - ChoiceText: '[My mom will kick me out if I don''t find the cat.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - helpfinddacat
+    - dumbass
+    ForbiddenFlags: []
+    GrantFlags:
+    - wizarddragonlonely
