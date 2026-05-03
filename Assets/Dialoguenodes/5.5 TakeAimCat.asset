@@ -10,29 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 5.3 DragonsLairSecondBit
+  m_Name: 5.5 TakeAimCat
   m_EditorClassIdentifier: 
-  NodeID: DragonsLairSecondBit
+  NodeID: TakeAimCat
   SpeakerName: Narrator
-  DialogueText: '"As you go further in, you catch a glimpse of the dragon''s tail
-    moving ahead of you. You also hear a cat''s meow."'
+  DialogueText: '"You gently nudge the cat to have it get off your shoulders. You
+    then notch an arrow on your bow and aim for the dragon''s stomach. You hear wind
+    blowing in front of you."'
   Choices:
-  - ChoiceText: '[Move to see the dragon.]'
-    NextNodeID: SeeTheDragon
+  - ChoiceText: '[Adjust for the wind.]'
+    NextNodeID: ShotGoesTrue
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
-  - ChoiceText: '[Find the cat.]'
-    NextNodeID: CatFound
-    ReloadScene: 0
-    RequiredFlags:
-    - helpfinddacat
-    ForbiddenFlags: []
     GrantFlags:
-    - foundcat
-  - ChoiceText: '[Flee.]'
-    NextNodeID: DaTownSquare
+    - dragondefeated
+  - ChoiceText: '[Keep current aim.]'
+    NextNodeID: ShotMisses
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

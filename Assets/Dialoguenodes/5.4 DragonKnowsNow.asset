@@ -15,4 +15,80 @@ MonoBehaviour:
   NodeID: DragonKnowsNow
   SpeakerName: Dragon
   DialogueText: '"I can hear you, human. What is your purpose for entering my home?"'
-  Choices: []
+  Choices:
+  - ChoiceText: '[Become seen.]'
+    NextNodeID: BecomeVisible
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags:
+    - foundcat
+    GrantFlags: []
+  - ChoiceText: '[Become seen.]'
+    NextNodeID: BecomeVisibleCat
+    ReloadScene: 0
+    RequiredFlags:
+    - foundcat
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Aim your bow.]'
+    NextNodeID: TakeAim
+    ReloadScene: 0
+    RequiredFlags:
+    - hasarchery
+    ForbiddenFlags:
+    - foundcat
+    GrantFlags: []
+  - ChoiceText: '[Aim your bow.]'
+    NextNodeID: TakeAimCat
+    ReloadScene: 0
+    RequiredFlags:
+    - hasarchery
+    - foundcat
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Attack.]'
+    NextNodeID: FailedAttack
+    ReloadScene: 0
+    RequiredFlags:
+    - haswrongweapon
+    ForbiddenFlags:
+    - foundcat
+    GrantFlags: []
+  - ChoiceText: '[Attack.]'
+    NextNodeID: FailedAttackCat
+    ReloadScene: 0
+    RequiredFlags:
+    - haswrongweapon
+    - foundcat
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Sneak Attack.]'
+    NextNodeID: DefeatDragon
+    ReloadScene: 0
+    RequiredFlags:
+    - hasrightweapon
+    ForbiddenFlags:
+    - foundcat
+    GrantFlags: []
+  - ChoiceText: '[Sneak Attack.]'
+    NextNodeID: DefeatDragonCat
+    ReloadScene: 0
+    RequiredFlags:
+    - hasrightweapon
+    - foundcat
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Flee.]'
+    NextNodeID: CannotEscape
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags:
+    - foundcat
+    GrantFlags: []
+  - ChoiceText: '[Flee.]'
+    NextNodeID: CannotEscapeCat
+    ReloadScene: 0
+    RequiredFlags:
+    - foundcat
+    ForbiddenFlags: []
+    GrantFlags: []

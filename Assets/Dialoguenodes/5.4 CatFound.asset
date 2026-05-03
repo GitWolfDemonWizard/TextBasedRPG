@@ -25,3 +25,9 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags:
     - fleddalair
+  - ChoiceText: '[See the dragon]'
+    NextNodeID: SeeDragonWithCat
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
