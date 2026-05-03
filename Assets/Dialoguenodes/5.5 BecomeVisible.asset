@@ -10,15 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 5.1 InformMotherSmart
+  m_Name: 5.5 BecomeVisible
   m_EditorClassIdentifier: 
-  NodeID: InformMotherSmart
-  SpeakerName: Mother
-  DialogueText: '"Did you find the cat? I haven''t finished making dinner yet."'
-  Choices:
-  - ChoiceText: '[I didn''t find the cat, but it is likely at the dragon''s lair.]'
-    NextNodeID: MothersPlea
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
+  NodeID: BecomeVisible
+  SpeakerName: Dragon
+  DialogueText: Ah, I see you are either brazen or foolish. Why make yourself known
+    to me?"
+  Choices: []

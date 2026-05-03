@@ -10,15 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 5.1 InformMotherSmart
+  m_Name: 5.3 DragonsLairSecondBit
   m_EditorClassIdentifier: 
-  NodeID: InformMotherSmart
-  SpeakerName: Mother
-  DialogueText: '"Did you find the cat? I haven''t finished making dinner yet."'
+  NodeID: DragonsLairSecondBit
+  SpeakerName: Narrator
+  DialogueText: '"As you go further in, you catch a glimpse of the dragon''s tail
+    moving ahead of you. You also hear a cat''s meow."'
   Choices:
-  - ChoiceText: '[I didn''t find the cat, but it is likely at the dragon''s lair.]'
-    NextNodeID: MothersPlea
+  - ChoiceText: '[Move to see the dragon.]'
+    NextNodeID: SeeTheDragon
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
+  - ChoiceText: '[Find the cat.]'
+    NextNodeID: CatFound
+    ReloadScene: 0
+    RequiredFlags:
+    - helpfinddacat
+    ForbiddenFlags: []
+    GrantFlags:
+    - foundcat

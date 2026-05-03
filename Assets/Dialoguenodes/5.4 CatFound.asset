@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 5.1 InformMotherSmart
+  m_Name: 5.4 CatFound
   m_EditorClassIdentifier: 
-  NodeID: InformMotherSmart
-  SpeakerName: Mother
-  DialogueText: '"Did you find the cat? I haven''t finished making dinner yet."'
+  NodeID: CatFound
+  SpeakerName: Narrator
+  DialogueText: '"Following the cat''s meowing, you find the cat sitting on a pile
+    of gold. You grab the cat and let it settle across your shoulders. Its claws
+    hurt slightly as they dig into your clothing to stabilize itself."'
   Choices:
-  - ChoiceText: '[I didn''t find the cat, but it is likely at the dragon''s lair.]'
-    NextNodeID: MothersPlea
+  - ChoiceText: '[Flee]'
+    NextNodeID: DaTownSquare
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - fleddalair

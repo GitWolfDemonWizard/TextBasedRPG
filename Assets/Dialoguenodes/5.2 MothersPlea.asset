@@ -10,15 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 5.1 InformMotherSmart
+  m_Name: 5.2 MothersPlea
   m_EditorClassIdentifier: 
-  NodeID: InformMotherSmart
+  NodeID: MothersPlea
   SpeakerName: Mother
-  DialogueText: '"Did you find the cat? I haven''t finished making dinner yet."'
+  DialogueText: '"Oh dear. That''s not good to hear. Please, my son, go get our cat
+    from the dragon''s lair. I cannot bear to think of what may transpire if the
+    cat is in the dragon''s lair."'
   Choices:
-  - ChoiceText: '[I didn''t find the cat, but it is likely at the dragon''s lair.]'
-    NextNodeID: MothersPlea
+  - ChoiceText: '[I was going to go do that. I just thought you should know. I''m
+      going now.]'
+    NextNodeID: DragonsLairEntrance
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - wenttodragonslair

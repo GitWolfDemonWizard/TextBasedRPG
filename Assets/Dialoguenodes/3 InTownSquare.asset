@@ -48,7 +48,7 @@ MonoBehaviour:
     GrantFlags:
     - wenttodragonslair
   - ChoiceText: '[Return home to share what you learned.]'
-    NextNodeID: 
+    NextNodeID: InformMotherSmart
     ReloadScene: 0
     RequiredFlags:
     - helpfinddacat
@@ -57,7 +57,7 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Return home to share what you learned.]'
-    NextNodeID: 
+    NextNodeID: InformMotherStupid
     ReloadScene: 0
     RequiredFlags:
     - helpfinddacat
@@ -66,21 +66,48 @@ MonoBehaviour:
     - dumbass
     ForbiddenFlags: []
     GrantFlags: []
-  - ChoiceText: '[Return home to share what you learned.]'
+  - ChoiceText: '[Report the dragon''s defeat.]'
     NextNodeID: 
     ReloadScene: 0
     RequiredFlags:
     - wenttodragonslair
     - dragondefeated
+    - accepted_questofdawizard
     ForbiddenFlags: []
     GrantFlags: []
-  - ChoiceText: '[Return home to share what you learned.]'
+  - ChoiceText: '[Report the dragon''s companionship.]'
     NextNodeID: 
     ReloadScene: 0
     RequiredFlags:
-    - helpfinddacat
-    - visitedVillageElder
-    - visitedWeaponsmith
-    - dumbass
+    - wenttodragonslair
+    - seduceddragon
+    - accepted_questofdawizard
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Surprise mother with the dragon.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - wenttodragonslair
+    - seduceddragon
+    - foundcat
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Bring the cat to mother.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - wenttodragonslair
+    - dragondefeated
+    - foundcat
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Bring the cat to mother.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - wenttodragonslair
+    - fleddalair
+    - foundcat
     ForbiddenFlags: []
     GrantFlags: []

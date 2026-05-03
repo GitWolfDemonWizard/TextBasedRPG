@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
-  m_Name: 5.1 InformMotherSmart
+  m_Name: 5.4 SeeTheDragon
   m_EditorClassIdentifier: 
-  NodeID: InformMotherSmart
-  SpeakerName: Mother
-  DialogueText: '"Did you find the cat? I haven''t finished making dinner yet."'
+  NodeID: SeeTheDragon
+  SpeakerName: Narrator
+  DialogueText: '"As you look around the corner you see the dragon. She''s lazing
+    on her side, with her belly exposed. Her scales on her body are shiny, red, and
+    cover almost her whole body, except her belly."'
   Choices:
-  - ChoiceText: '[I didn''t find the cat, but it is likely at the dragon''s lair.]'
-    NextNodeID: MothersPlea
+  - ChoiceText: '[...]'
+    NextNodeID: DragonKnowsNow
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
