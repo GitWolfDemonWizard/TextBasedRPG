@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 4 WeaponsmithDragon
+  m_EditorClassIdentifier: 
+  NodeID: WeaponsmithDragon
+  SpeakerName: Weaponsmith
+  DialogueText: '"Ah, I see, me lad. Take yer pick o'' a weapon from the shop, on
+    me. Think o'' it as a thank ye for takin'' care o'' that dragon. If I recall
+    correctly, dragon''s are weak on their undersides. Good luck, laddy."'
+  Choices:
+  - ChoiceText: '[Grab the dagger.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - hasrightweapon
+  - ChoiceText: '[Grab the sword.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - haswrongweapon
+  - ChoiceText: '[Grab the spear.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - haswrongweapon
+  - ChoiceText: '[Grab the archery equipment.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - hasarchery

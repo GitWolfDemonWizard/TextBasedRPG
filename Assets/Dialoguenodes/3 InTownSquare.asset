@@ -21,20 +21,23 @@ MonoBehaviour:
     NextNodeID: VillageElder
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags: []
+    ForbiddenFlags:
+    - visitedVillageElder
     GrantFlags: []
   - ChoiceText: '[Visit the Weaponsmith]'
-    NextNodeID: 
+    NextNodeID: Weaponsmith
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags: []
+    ForbiddenFlags:
+    - visitedWeaponsmith
     GrantFlags: []
   - ChoiceText: '[Visit Mom''s Home]'
     NextNodeID: MothersHome
     ReloadScene: 0
     RequiredFlags:
     - rejected_questofdawizard
-    ForbiddenFlags: []
+    ForbiddenFlags:
+    - helpfinddacat
     GrantFlags: []
   - ChoiceText: '[Head to Dragon''s Lair]'
     NextNodeID: 
@@ -42,4 +45,23 @@ MonoBehaviour:
     RequiredFlags: []
     ForbiddenFlags:
     - rejected_questofdawizard
+    GrantFlags: []
+  - ChoiceText: '[Return home to share what you learned.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - helpfinddacat
+    - visitedVillageElder
+    - visitedWeaponsmith
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Return home to share what you learned.]'
+    NextNodeID: 
+    ReloadScene: 0
+    RequiredFlags:
+    - helpfinddacat
+    - visitedVillageElder
+    - visitedWeaponsmith
+    - dumbass
+    ForbiddenFlags: []
     GrantFlags: []

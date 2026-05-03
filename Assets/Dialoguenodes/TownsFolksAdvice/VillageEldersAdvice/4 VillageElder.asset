@@ -18,7 +18,7 @@ MonoBehaviour:
     on this beautiful and warm day?"'
   Choices:
   - ChoiceText: '[I''ve been sent by Mist Da Wizard to deal with the Dragon.]'
-    NextNodeID: 
+    NextNodeID: VillageElderDragon
     ReloadScene: 0
     RequiredFlags:
     - accepted_questofdawizard
@@ -26,20 +26,20 @@ MonoBehaviour:
     GrantFlags:
     - wizarddragonlonely
   - ChoiceText: '[My mother needs me to find the family cat.]'
-    NextNodeID: 
+    NextNodeID: VillageElderCat
     ReloadScene: 0
     RequiredFlags:
     - helpfinddacat
     ForbiddenFlags:
     - dumbass
     GrantFlags:
-    - wizarddragonlonely
+    - catdragonlonely
   - ChoiceText: '[My mom will kick me out if I don''t find the cat.]'
-    NextNodeID: 
+    NextNodeID: VillageElderScolding
     ReloadScene: 0
     RequiredFlags:
     - helpfinddacat
     - dumbass
     ForbiddenFlags: []
     GrantFlags:
-    - wizarddragonlonely
+    - catdragonlonely

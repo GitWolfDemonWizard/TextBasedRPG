@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NodeID: MothersHome
   SpeakerName: Mother
-  DialogueText: '"Welcome home, my child! You''re back early."'
+  DialogueText: '"Welcome home, my son! You''re back early."'
   Choices:
   - ChoiceText: '[Yeah, Mist Da Wizard gave me the rest of the day off.]'
     NextNodeID: MissingCat

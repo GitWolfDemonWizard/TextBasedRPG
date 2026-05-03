@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 4 VillageElderScolding
+  m_EditorClassIdentifier: 
+  NodeID: VillageElderScolding
+  SpeakerName: VillageElderScolding
+  DialogueText: '"You fool! One should be kind to their mother! Your cat may have
+    wandered to the dragon''s lair, if it isn''t in town. I would tell you to be
+    careful of the dragon snatching you, but you are a fool, so it seems that warning
+    you might be a waste of my breath and wisdom."'
+  Choices:
+  - ChoiceText: '[Thank you, Elder, for the information. My mother has effectively
+      told me the same.]'
+    NextNodeID: DaTownSquare
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - visitedVillageElder
