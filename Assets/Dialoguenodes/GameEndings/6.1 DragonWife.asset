@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 6.1 DragonWife
+  m_EditorClassIdentifier: 
+  NodeID: DragonWife
+  SpeakerName: Narrator
+  DialogueText: '"Walking into your mother''s home you heard her gasp in shock. She
+    takes the cat in her arms very quickly. Then she takes a moment to notice the
+    dragon in her human-like form. She asks who the woman next to you is. The dragon
+    describes herself as your mate. Your mother looks at you, and you shrug your
+    shoulders. Your mother tells you that as long as you marry the dragon, she doesn''t
+    care what happens after that. Thus, you got a dragon for a wife."'
+  Choices:
+  - ChoiceText: '[The cycle repeats.]'
+    NextNodeID: 
+    ReloadScene: 1
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []

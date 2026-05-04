@@ -67,7 +67,7 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Report the dragon''s defeat.]'
-    NextNodeID: 
+    NextNodeID: DragonDefeatReport
     ReloadScene: 0
     RequiredFlags:
     - wenttodragonslair
@@ -76,7 +76,7 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Report the dragon''s companionship.]'
-    NextNodeID: 
+    NextNodeID: DragonSeductionReport
     ReloadScene: 0
     RequiredFlags:
     - wenttodragonslair
@@ -85,7 +85,7 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Surprise mother with the dragon.]'
-    NextNodeID: 
+    NextNodeID: DragonWife
     ReloadScene: 0
     RequiredFlags:
     - wenttodragonslair
@@ -94,7 +94,7 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Bring the cat to mother.]'
-    NextNodeID: 
+    NextNodeID: MothersCatDragonDefeated
     ReloadScene: 0
     RequiredFlags:
     - wenttodragonslair
@@ -103,11 +103,22 @@ MonoBehaviour:
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Bring the cat to mother.]'
-    NextNodeID: 
+    NextNodeID: MothersCatFledDragon
     ReloadScene: 0
     RequiredFlags:
     - wenttodragonslair
     - fleddalair
     - foundcat
     ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Bring the cat to mother.]'
+    NextNodeID: MothersCatNoDragon
+    ReloadScene: 0
+    RequiredFlags:
+    - wenttodragonslair
+    - foundcat
+    ForbiddenFlags:
+    - fleddalair
+    - defeateddragon
+    - seduceddragon
     GrantFlags: []

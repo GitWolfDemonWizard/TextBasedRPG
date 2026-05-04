@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 6.1 DragonSeductionReport
+  m_EditorClassIdentifier: 
+  NodeID: DragonSeductionReport
+  SpeakerName: Narrator
+  DialogueText: '"Both Mist Da Wizard and the Village elder were surprised when they
+    found out you had somehow seduced the dragon, and on top of that you had somehow
+    kept the town safe in the process. Both of them approved of the method, albeit
+    it was rather unconventional. Now you just had to figure out how to explain this
+    to your mother."'
+  Choices:
+  - ChoiceText: '[The cycle repeats.]'
+    NextNodeID: 
+    ReloadScene: 1
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
