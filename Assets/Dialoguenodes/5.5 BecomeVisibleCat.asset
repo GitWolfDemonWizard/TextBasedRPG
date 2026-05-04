@@ -14,5 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NodeID: BecomeVisibleCat
   SpeakerName: Dragon
-  DialogueText: '"Ah, I see that you and the cat know each other."'
-  Choices: []
+  DialogueText: '"Ah, I see that you and the cat know each other. What brings you
+    to my lair?"'
+  Choices:
+  - ChoiceText: '[I''ve come to take my cat back.]'
+    NextNodeID: LeaveWithCat
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[I''ve come to take my cat back. But I think we could also talk.]'
+    NextNodeID: TimeToTalkCat
+    ReloadScene: 0
+    RequiredFlags:
+    - catdragonlonely
+    ForbiddenFlags: []
+    GrantFlags: []

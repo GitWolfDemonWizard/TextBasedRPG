@@ -16,4 +16,17 @@ MonoBehaviour:
   SpeakerName: Dragon
   DialogueText: Ah, I see you are either brazen or foolish. Why make yourself known
     to me?"
-  Choices: []
+  Choices:
+  - ChoiceText: '[To show you your doom!]'
+    NextNodeID: SomeoneWasDoomed
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[I''ve come to talk with you.]'
+    NextNodeID: TimeToTalk
+    ReloadScene: 0
+    RequiredFlags:
+    - wizarddragonlonely
+    ForbiddenFlags: []
+    GrantFlags: []
