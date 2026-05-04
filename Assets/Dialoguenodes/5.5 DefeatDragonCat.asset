@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 5.5 DefeatDragonCat
+  m_EditorClassIdentifier: 
+  NodeID: DefeatDragonCat
+  SpeakerName: Narrator
+  DialogueText: '"You cast an invisibility spell over yourself and the cat. You approach
+    the dragon quietly, pulling the dagger from your belt. As you approach the dragon''s
+    belly, she appears to be looking for you. You stab into the dragon''s belly with
+    the dagger and slash open her belly, dumping her intestines to the ground. She
+    attempts to swipe at you, missing due to your invisibility.'
+  Choices:
+  - ChoiceText: '[...]'
+    NextNodeID: DeadDragonCat
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - dragondefeated

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 5.5 CannotEscape
+  m_EditorClassIdentifier: 
+  NodeID: CannotEscape
+  SpeakerName: Narrator
+  DialogueText: '"You attempt to run. You hear the dragon moving behind you. You
+    feel wind pressure building up behind you as the dragon pursues you. You see
+    the entrance to the lair up ahead, but suddenly you feel pain. You realize you
+    don''t feel your body anymore, your vision goes black as your head hits the ground."'
+  Choices:
+  - ChoiceText: '[The cycle repeats.]'
+    NextNodeID: 
+    ReloadScene: 1
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []

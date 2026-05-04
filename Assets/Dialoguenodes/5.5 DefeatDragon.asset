@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 5.5 DefeatDragon
+  m_EditorClassIdentifier: 
+  NodeID: DefeatDragon
+  SpeakerName: Narrator
+  DialogueText: '"You cast an invisibility spell over yourself and start sneaking
+    up on the dragon. Her eyes are searching for you, yet she cannot see you. As
+    you get near her belly, you stab her with your dagger, slicing a gash down her
+    belly, her intestines start spilling out. She cries out in pain and swipes at
+    you, but she misses since she can''t see you."'
+  Choices:
+  - ChoiceText: '[...]'
+    NextNodeID: DeadDragon
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - dragondefeated

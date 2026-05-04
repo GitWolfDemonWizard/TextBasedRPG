@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
+  m_Name: 5.5 CannotEscapeCat
+  m_EditorClassIdentifier: 
+  NodeID: CannotEscapeCat
+  SpeakerName: 
+  DialogueText: '"As you start running, the cat falls off of your back. You turn
+    around to grab the cat, seeing the dragon coming around the corner. You watch
+    the cat run away from you and the dragon. You turn to run to the lair entrance.
+    You feel the dragon''s jaws clamp on your upper torso, and suddenly, you are
+    airborne. The last thing you see is the dragon''s jaws clamping shut."'
+  Choices:
+  - ChoiceText: '[The cycle repeats.]'
+    NextNodeID: 
+    ReloadScene: 1
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
