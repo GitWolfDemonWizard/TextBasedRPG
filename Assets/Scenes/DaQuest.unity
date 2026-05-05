@@ -219,7 +219,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 0
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 608322311}
   - component: {fileID: 608322310}
   - component: {fileID: 608322314}
+  - component: {fileID: 608322315}
   m_Layer: 5
   m_Name: AdventureUI
   m_TagString: Untagged
@@ -591,6 +592,31 @@ MonoBehaviour:
   DialogueDatabase: {fileID: 11400000, guid: bb39d7fa2eb36b24fb7d520d55f2ad49, type: 2}
   FlagManager: {fileID: 1266882361}
   StartNodeID: MistDaWizard
+--- !u!114 &608322315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608322309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713f33a8293ae7d42b561f38a55f5c51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DM: {fileID: 608322314}
+  SpeakerTextDisplay: {fileID: 1053243519}
+  DialogueTextDisplay: {fileID: 177158884}
+  Buttons:
+  - {fileID: 1805469940}
+  - {fileID: 1552492467}
+  - {fileID: 770380588}
+  - {fileID: 1292384706}
+  ButtonLabels:
+  - {fileID: 1805469941}
+  - {fileID: 1552492468}
+  - {fileID: 770380589}
+  - {fileID: 1292384707}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,7 +1393,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.33333334, b: 0.33333334, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
