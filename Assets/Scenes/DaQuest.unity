@@ -590,7 +590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueDatabase: {fileID: 11400000, guid: bb39d7fa2eb36b24fb7d520d55f2ad49, type: 2}
   FlagManager: {fileID: 1266882361}
-  StartNodeID: Mist Da Wizard
+  StartNodeID: MistDaWizard
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f7ba6b36f73ca44dbcb1cd1ac4bb387, type: 3}
   m_Name: 1 IntroGetQuest
   m_EditorClassIdentifier: 
-  NodeID: Mist Da Wizard
-  SpeakerName: Da Wizard
+  NodeID: MistDaWizard
+  SpeakerName: Mist Da Wizard
   DialogueText: '"Hello, my apprentice. I have been kindly asked by the folks of
     the town to deal with the dragon that has been plaguing them. I think you are
     the best candidate for the job. Will you take on this job for me?"'
