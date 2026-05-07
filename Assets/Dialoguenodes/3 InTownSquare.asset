@@ -63,6 +63,8 @@ MonoBehaviour:
     RequiredFlags: []
     ForbiddenFlags:
     - rejected_questofdawizard
+    - seduceddragon
+    - dragondefeated
     GrantFlags:
     - wenttodragonslair
   - ChoiceText: '[Return home to share what you learned.]'
