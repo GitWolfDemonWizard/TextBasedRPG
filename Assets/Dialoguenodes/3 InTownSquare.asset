@@ -20,14 +20,32 @@ MonoBehaviour:
   - ChoiceText: '[Visit the Village Elder]'
     NextNodeID: VillageElder
     ReloadScene: 0
-    RequiredFlags: []
+    RequiredFlags:
+    - accepted_questofdawizard
+    ForbiddenFlags:
+    - visitedVillageElder
+    GrantFlags: []
+  - ChoiceText: '[Visit the Village Elder]'
+    NextNodeID: MothersCatNoDragon
+    ReloadScene: 0
+    RequiredFlags:
+    - finddacat
     ForbiddenFlags:
     - visitedVillageElder
     GrantFlags: []
   - ChoiceText: '[Visit the Weaponsmith]'
     NextNodeID: Weaponsmith
     ReloadScene: 0
-    RequiredFlags: []
+    RequiredFlags:
+    - accepted_questofdawizard
+    ForbiddenFlags:
+    - visitedWeaponsmith
+    GrantFlags: []
+  - ChoiceText: '[Visit the Weaponsmith]'
+    NextNodeID: MothersCatNoDragon
+    ReloadScene: 0
+    RequiredFlags:
+    - finddacat
     ForbiddenFlags:
     - visitedWeaponsmith
     GrantFlags: []
