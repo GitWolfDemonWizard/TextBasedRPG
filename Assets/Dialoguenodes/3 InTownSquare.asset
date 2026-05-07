@@ -26,7 +26,7 @@ MonoBehaviour:
     - visitedVillageElder
     GrantFlags: []
   - ChoiceText: '[Visit the Village Elder]'
-    NextNodeID: MothersCatNoDragon
+    NextNodeID: VillageElder
     ReloadScene: 0
     RequiredFlags:
     - helpfinddacat
@@ -42,7 +42,7 @@ MonoBehaviour:
     - visitedWeaponsmith
     GrantFlags: []
   - ChoiceText: '[Visit the Weaponsmith]'
-    NextNodeID: MothersCatNoDragon
+    NextNodeID: Weaponsmith
     ReloadScene: 0
     RequiredFlags:
     - helpfinddacat
