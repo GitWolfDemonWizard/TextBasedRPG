@@ -29,7 +29,7 @@ MonoBehaviour:
     NextNodeID: MothersCatNoDragon
     ReloadScene: 0
     RequiredFlags:
-    - finddacat
+    - helpfinddacat
     ForbiddenFlags:
     - visitedVillageElder
     GrantFlags: []
@@ -45,7 +45,7 @@ MonoBehaviour:
     NextNodeID: MothersCatNoDragon
     ReloadScene: 0
     RequiredFlags:
-    - finddacat
+    - helpfinddacat
     ForbiddenFlags:
     - visitedWeaponsmith
     GrantFlags: []
