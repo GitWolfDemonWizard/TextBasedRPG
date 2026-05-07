@@ -19,7 +19,7 @@ MonoBehaviour:
     do."'
   Choices:
   - ChoiceText: '[Head into the lair.]'
-    NextNodeID: 
+    NextNodeID: DragonsLairFirstBit
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
