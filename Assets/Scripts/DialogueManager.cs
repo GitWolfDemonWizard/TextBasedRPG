@@ -14,6 +14,26 @@ public class DialogueManager : MonoBehaviour
 
     private DialogueNode _currentNode; // Current node that the game is on
 
+    // Takes the data from the Dialogue Manager to be able to act as the source of truth for a PlayData object
+    public PlayData ToData()
+    {
+        //Setting the data in PlayData to match what is in this system.
+        return new PlayData
+        {
+            CurrentNode = _currentNode,
+            CurrentFlags = FlagManager.Flags
+        };
+    }
+
+    public void FromData(PlayData data)
+    {
+        _currentNode = data.CurrentNode;
+        foreach(var flag in data.CurrentFlags)
+        {
+            FlagManager.AddFlag(flag);
+        }
+    }
+
     // Starting our first node.
     private void Start()
     {

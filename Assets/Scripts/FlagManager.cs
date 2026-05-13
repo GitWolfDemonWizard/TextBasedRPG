@@ -5,6 +5,9 @@ public class FlagManager : MonoBehaviour
 {
     private HashSet<string> _flags = new();
 
+    // Public list to track the flags that have been added to the hashset
+    public List<string> Flags = new();
+
     // Method to check if a flag is present.
     public bool HasFlag(string flag)
     {
@@ -17,7 +20,8 @@ public class FlagManager : MonoBehaviour
     {
         // If the flag being added is empty or a null, doesn't add the flag.
         if (string.IsNullOrEmpty(flag)) return;
-        // Otherwise adds the string of the flag to the hashset.
+        // Otherwise adds the string of the flag to the hashset and list.
         _flags.Add(flag);
+        Flags.Add(flag);
     }
 }
