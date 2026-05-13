@@ -12,11 +12,12 @@ public class DialogueManager : MonoBehaviour
     public delegate void DialogueUpdated(string speakerName, string dialogueText, List<DialogueChoice> choices);
     public static event DialogueUpdated OnDialogueUpdated;
 
-    private DialogueNode _currentNode;
+    private DialogueNode _currentNode; // Current node that the game is on
 
     // Starting our first node.
     private void Start()
     {
+        // Calls the first scene in the game so that it starts.
         GoToNode(StartNodeID);
     }
 
