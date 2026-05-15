@@ -27,9 +27,11 @@ public class DialogueManager : MonoBehaviour
 
     public void FromData(PlayData data)
     {
+        // Pulling the data from the data stored to properly input it
         _currentNode = data.CurrentNode;
         foreach(var flag in data.CurrentFlags)
         {
+            // Adds the stored flags to the system so that players have the correct flags for their loaded run
             FlagManager.AddFlag(flag);
         }
     }
